@@ -1,0 +1,11 @@
+LabelSmoothingLoss: 损失函数
+
+create_logging: 创建日志
+
+save_checkpoint: 保存权重文件
+
+adjust_learning_rate: 学习率调整
+
+accuracy, accuracy_single: 准确率计算
+
+

@@ -1,0 +1,17 @@
+train_div, train_div_single, remove_file, 三个函数都是划分训练集验证集有关的数据集，划分数据集可以调用train_div
+
+speed_cal, speed_trans: 用于计算（可以不相邻）两帧之间的速度，参考价值不大
+
+query_txt: 形成数据集里面的航迹对应文件，这个需要自己写，每个人获得航迹的方式不同，无参考价值
+
+date_trans: 把日期date, 时间hour+minute（除以一天）转换成-1~1之间的特征
+
+encode_loc_time: 时间编码，作为四维特征
+
+class Data_divi: 读入数据的主函数！！！！！
+
+读入函数使用：run, load_train_dataset, load_val_dataset
+
+
+
+
